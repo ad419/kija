@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Neuton:ital@1&family=Poppins&display=swap");
+
+.felx-d {
+  display: flex;
+}
+
+body {
+  background-color: #e2e2e2;
+  box-sizing: border-box !important;
+}
+
+.img-container1 {
+  display: flex;
+  position: absolute;
+  left: 0;
+}
+
+.img-container2 {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+.btn-logo {
+  display: flex;
+  position: absolute;
+  margin-top: 20%;
+}
+.btn-logo img {
+  top: 50% !important;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  padding: 1rem 3rem 0;
+}
+
+.btn-logo button {
+  border-radius: 50px !important;
+  width: 370px;
+  height: 60px;
+  margin-top: 4rem;
+  margin-left: 3rem;
+}
